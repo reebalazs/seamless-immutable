@@ -56,9 +56,9 @@
   ]);
 
   var nonMutatingArrayMethods = nonMutatingObjectMethods.concat([
-    "map", "filter", "slice", "concat"
+    "filter", "slice", "concat"
     // Temporarily disabled:
-    // "reduce", "reduceRight"
+    // "map", "reduce", "reduceRight"
   ]);
 
   var mutatingDateMethods = mutatingObjectMethods.concat([
